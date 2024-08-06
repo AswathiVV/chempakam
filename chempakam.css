@@ -66,20 +66,167 @@ li a :hover{
     margin: 1;
     width: 100px;
     float: left;
+    top: 1316px;
     
 }
 .rn img {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 1000px;
     position: absolute;
     left: 10%;
     
-}
-.d{
-    position: absolute;
-    left: 17%;
-    top: 1600PX;
     
 }
+.rn .d{
+    position: absolute;
+    left: 20px;
+    top: 1550px;
+    
+    
+    
+}
+.pc input{
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 210px;
+}
+.rn1 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    
+}
+.rn1 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 26%;
+    
+}
+.rn2 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    
+}
+.rn2 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 42%;
+    
+}
+.rn3 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    
+}
+.rn3 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 58%;
+    
+}
+.rn4 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    
+}
+.rn4 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 74%;
+    
+}
+.rn5 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    top: 1600px;
+    
+}
+.rn5 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 17%;
+    
+}
+.rn6 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    top: 1600px;}
+.rn6 img {
+
+        width: 270px;
+        height: 270px;
+        border-radius: 1000px;
+        position: absolute;
+        left: 34%;
+        
+    }
+    
+ 
+.rn7 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    top: 1600px;
+    
+}
+.rn7 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 51%;
+    
+}
+.rn8 img{
+    margin: 1;
+    width: 100px;
+    float: left;
+    top: 1600px;
+    
+}
+.rn8 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 68%;
+    
+} 
+.main1 {
+    text-align: center;
+    position: absolute;
+    top: 2000px;
+    left: 35%;
+    color: gray;
+}
+.main1 a{
+    background-color: rgb(17, 17, 20);
+    color: rgb(245, 234, 234);
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px;
+    border-radius: 1px solid grey;
+    border-radius: 10px;
+}
+
+
+
+
 
