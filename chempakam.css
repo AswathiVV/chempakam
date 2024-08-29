@@ -276,7 +276,10 @@ li a :hover{
     margin: 30px;
    
 } */
-
+.carousel-item img{
+    width: 13.5%;
+    
+}
 
 .gallery {
     margin: 5px;
@@ -393,6 +396,8 @@ li a :hover{
 }
 
 
-@media (max-width: 768px) {
-   
+@media (max-width: 600px) {
+   .footer{
+    top: 80%;
+   }
 }
