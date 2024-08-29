@@ -5,30 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="chempakam.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <ul>
-        <li><img src="log.png" alt=""></li>
-        <li><a href="">SHOP NOW</a></li>
-        <li><a href="">REVIEWS</a></li>
-        <li><a href="">ABOUT US</a></li>
-        <li><a href="">CONTACT US</a></li>
-        <div class="pc">
-            <input type="text" placeholder="Product Code" name="search">
-        </div>
-        
-        
-    </ul>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+          <div class="container-fluid">
+            <ul class="navbar-nav fixed-top me-auto">
+              <li class="nav-item">
+                  <img style="width: 25%;left: 5%;" src="log.png" alt="">
+                </li>
+               
+              <li class="nav-item" style="padding: 20px;padding-left: 30%;">
+                 <a class="nav-link text-white">SHOP NOW         
+              </li>
+           
+              <li class="nav-item"style="padding: 20px;left: 54%;">
+                <a class="nav-link text-white" href="#">REVIEWS</a>
+              </li>
+              <li class="nav-item"style="padding: 20px;left: 64%;">
+                <a class="nav-link text-white" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item" style="padding: 20px;left: 74%;">
+                <a class="nav-link text-white" href="#">CONTACT US</a>
+              </li>
+          
+           
+                <li class="nav-link"></li>
+  
+                <form style="left: 70%;top: 25px;position: absolute;padding-left: 5px;;" type="text" name="search" placeholder="   search">
+                  <input type="text" placeholder=" Search.." name=" search">
+                </form>
+                <i class="bi bi-search" style="position: absolute;left: 69%;top: 25px;color: aliceblue;" type="text" name="search" placeholder="search"></i>
+                <i class="bi bi-heart" style="color: aliceblue;font-size: 25px;left: 1250px;position: absolute;top: 24px;"></i>
+               
+                
+                
+     
+          </div>
+        </div>    
+  </nav>
+    
     <div class="main">
         <img src="a.jpeg" alt="">
         <div class="sub">
-        <h1>Welcome to</h1><br><img src="chempakam-logo-e1648124235657.png" alt=""><h1>Online Shop</h1>
+        <h1>Welcome to</h1><br><img style="right:  5%;" src="chempakam-logo-e1648124235657.png" alt=""><h1>Online Shop</h1>
         <a href="">SHOP NOW</a><br><br>
         <a href="">DISCOUNT SALE</a>
         </div>
-    </div><br><br><br><br>
-    <div class="rn">
+    </div><br><br><br>
+    <!-- <div class="rn">
         <a href="Inner-Jacket-ch.webp">
         <img src="Inner-Jacket-ch.webp" alt="">
         </a><br><br>
@@ -82,18 +114,134 @@
         <img src="Wedding-ch.webp" alt="">
         </a>
         <div class="d"></div>
+    </div> -->
+
+ <div class="carousal slide container mt-4" id="caro" data-bs-ride="carousal" style="width: 80%;">
+  <div class="carousal-inner">
+    <div class="carousal-item active">
+      <img src="Inner-Jacket-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kids-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Party-wear-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="sale-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Saree-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Stitching-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      
     </div>
+    <!-- <div class="carousal-item">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+     
+    </div>
+    <div class="carousal-item active">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      
+    </div> -->
+    <!-- <div class="carousal-item active">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+      <img src="Kurtas-ch.webp" class="rounded-circle" style="width: 13.5%;" alt="">
+    </div> -->
+  </div>
+  <button class="carousal-control-prev" type="button" data-bs-target="#caro" data-bs-slide="prev">
+    <span class="carousal-control-prev-icon"></span>
+  </button>
+  <button class="carousal-control-next" type="button" data-bs-target="#caro" data-bs-slide="prev">
+    <span class="carousal-control-next-icon"></span>
+  </button>
+ </div>   
+
  <div class="main1">
         <h1>Best Selling Products</h1><br><br>
-        <a href="#">BROWSE MORE PRODUCTS</a><br><br><br>
+        <a href="#" style="left: 43%;">BROWSE MORE PRODUCTS</a><br><br><br>
         <h1>NEW ARRIVALS</h1>
-    </div>
- 
+</div>
 <div class="gallery">
+  <a target="_blank" href="img1.webp">
+    <img src="img1.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Pure handloom saree </b> <br><br><h2>₹5,450</h2></div>
+  <!-- <a href="" style="border-radius: 2px solid grey;padding: 5px;color: black;">Add to cart</a> -->
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img2.webp">
+    <img src="img2.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Pure handloom saree </b> <br><br><h2>₹5,450</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+  </div>
+
+<div class="gallery">
+  <a target="_blank" href="img3.webp">
+    <img src="img3.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><br><h2>₹3,850</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img4.webp">
+    <img src="img4.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><br><h2>₹3,850</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+</div> 
+
+
+<div class="gallery2">
+  <a target="_blank" href="img5.webp">
+    <img src="img5.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><h2>₹3,250</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+</div>
+
+<div class="gallery2">
+  <a target="_blank" href="img6.webp">
+    <img src="img6.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><h2>₹2,850</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+</div>
+
+<div class="gallery2">
+  <a target="_blank" href="img7.webp">
+    <img src="img7.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><h2>₹2,850</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+</div>
+
+<div class="gallery2">
+  <a target="_blank" href="img8.webp">
+    <img src="img8.webp" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><h2>₹3,250</h2></div>
+  <button type="button" class="btn btn-secondary">Add to cart</button>
+  </div><br>
+ 
+<!-- <div class="gallery">
     <a target="_blank" href="img1.webp">
       <img src="img1.webp" alt="">
     </a>
-    <div class="desc"><b>Pure handloom saree </b> <br><h2>₹5,250</h2></div>
+    <div class="desc"><b>Pure handloom saree </b><br> <br><h2>₹5,250</h2></div>
     <a href="">Add to cart</a>
   </div>
   
@@ -101,7 +249,7 @@
     <a target="_blank" href="img2.webp">
       <img src="img2.webp" alt="">
     </a>
-    <div class="desc"><b>Pure handloom saree </b> <br><h2>₹5,450</h2></div>
+    <div class="desc"><b>Pure handloom saree </b> <br><br><h2>₹5,450</h2></div>
     <a href="">Add to cart</a>
   </div>
   
@@ -119,15 +267,15 @@
     </a>
     <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><h2>₹3,850</h2></div>
     <a href="">Add to cart</a>
-  </div> <br><br>  
-  <div class="gallery">
+  </div>   
+  <div class="gallery" style="padding-top: 58%;">
     <a target="_blank" href="img5.webp">
       <img src="img5.webp" alt="" >
     </a>
     <div class="desc"><b>Dupatta $ Shantoon bottom</b> <br><h2>₹3,250</h2></div>
     <a href="">Add to cart</a>
   </div>
-  <div class="gallery">
+  <div class="gallery" style="top: 10%;">
     <a target="_blank" href="img6.webp">
       <img src="img6.webp" alt="" >
     </a>
@@ -149,42 +297,12 @@
     <a href="">Add to cart</a><br><br><br><br>
     <a href="">BROWS FOR MORE IMAGES</a><br><br>
 
-  </div>
-  <!-- <div class="footer">
-    <div class="s1">
-    <ul>
-        <img src="log.png" alt="">
-        <li><h2>SOLUTIONS</h2></li>
-        <li>My account</li>
-        <li>Track Your Order</li>
-        <li>Order History</li>
-        <li>Payment Methods</li>
-        <li>Privacy Policy</li>
-    </ul>
-    </div>
-    <div class="s2">
-        <ul>
-            
-            <li><h2>SOLUTIONS</h2></li>
-            <li>My account</li>
-            <li>Track Your Order</li>
-            <li>Order History</li>
-            <li>Payment Methods</li>
-            <li>Privacy Policy</li>
-        </ul>
-        </div> -->
-  <!-- <div class="footer">
-    <ul>
-        <li>SOLUTIONS <br><br>
-            My account <br>
-            Track Your Order <br>
-            Order History <br>
-            Payment Methods <br>
-            Privacy Policy</li>
-    </ul>
-
   </div> -->
-  <div class="footer">
+  
+  
+
+  
+   <!-- <div class="footer">
     <img src="log.png" alt=""><br>
     
     <ul>
@@ -196,7 +314,7 @@
             <b>Privacy Policy</b></li>
     </ul>
     
-        <ul>
+        <ul style="float: left;position: absolute;left: 30vmin;">
             <li><h2>ABOUT US</h2> <br>
                <b>About us </b><br><br>
                 <b> Terms & Condition</b> <br><br>
@@ -205,7 +323,7 @@
                 <b>Site Map</b></li>
         </ul>
 
-        <ul>
+        <ul style="float: left; position: absolute;">
             <li><h2>CONTACT US</h2> <br>
                <b>Kureekkadu, Ernakulam, Kerala </b><br><br>
                 <b> 📞+91-86065 70657</b> <br><br>
@@ -214,12 +332,41 @@
                 
         </ul>
 
-    </div>
     
-</div>
     
+</div> -->
 
-  </div>
+<div class="footer">
+  <img src="log.png" alt=""><br>
+  <div class="sub1">
+    <li style="list-style-type: none;left: 40px;"><h2>SOLUTIONS</h2> <br>
+       <b>My account </b><br><br>
+        <b>Track Your Order</b> <br><br>
+        <b>Order History</b> <br><br>
+        <b>Payment Methods</b> <br><br>
+        <b>Privacy Policy</b></li>
+ </div>
+ <div class="sub2">
+  <li><h2>ABOUT US</h2> <br>
+     <b>About us </b><br><br>
+      <b> Terms & Condition</b> <br><br>
+      <b> Privacy Policy</b> <br><br>
+      <b>Return Policy</b> <br><br>
+      <b>Site Map</b></li>
+</div>
+<div class="sub3">
+  <li><h2>CONTACT US</h2> <br>
+     <b>Kureekkadu, Ernakulam, Kerala </b><br><br>
+      <b> 📞+91-86065 70657</b> <br><br>
+      <b> 🕑 Mon - Sat / 9:00AM - 6:00PM</b> <br><br>
+      
+      
+</div>
+
+
+</div>  
+
+  
 
     
 
