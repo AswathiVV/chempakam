@@ -223,7 +223,7 @@ li a :hover{
 .main1 {
     text-align: center;
     position: relative;
-    padding-top: 10%;
+    padding-top: 4%;
     
     color: gray;
 }
@@ -353,7 +353,7 @@ li a :hover{
     text-align: center;
  } */
  
-.footer{
+/* .footer{
     position: relative;
     width: 100%;
     height: 400px;
@@ -384,13 +384,13 @@ li a :hover{
 .sub3 li{
     position: absolute;
     left: 830px;
-}
+} */
 /* .footer ul{
     left: 20vmin;
     padding: 20px;
     right: 40%;
 } */
-.footer .sub1{
+/* .footer .sub1{
  
     left: 50vmin;
 }
@@ -400,4 +400,199 @@ li a :hover{
    .footer{
     top: 80%;
    }
-}
+} */
+/* Basic Styling */
+/* .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+    width: 100%;
+    height: auto; 
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box; 
+    color: aliceblue; 
+    margin-top: 100px;
+    
+    
+  } */
+  
+  /* .footer img {
+    width: 16%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .footer h2 {
+    color: aliceblue;
+  }
+  
+  .footer b {
+    color: aliceblue;
+  }
+   */
+  /* .footer-section {
+    flex: 1 1 200px; 
+    margin: 10px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+   */
+  /* Responsive Styling */
+  /* @media (max-width: 1024px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer img {
+      width: 20%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+    
+    .footer img {
+      width: 30%;
+    }
+    
+    .footer-section {
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer img {
+      width: 40%;
+    }
+    
+    .footer-section h2 {
+      font-size: 18px;
+    }
+    
+    .footer-section b {
+      font-size: 14px;
+    }
+  } */
+   /* Basic Styling */
+.footer {
+   
+    top: 20vmin; /* Positions the footer 10% from the bottom of the viewport */
+    left: 0; /* Aligns the footer to the left edge */
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    color: aliceblue;
+    z-index: 1000; /* Ensures the footer appears above other content */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  /* Styling for the footer image */
+  .footer img {
+    width: 16%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for header elements in the footer */
+  .footer h2 {
+    color: aliceblue;
+  }
+  
+  /* Styling for bold text in the footer */
+  .footer b {
+    color: aliceblue;
+  }
+  
+  /* Styling for each section in the footer */
+  .footer-section {
+    flex: 1 1 200px; /* Allows sections to grow and shrink */
+    margin: 10px;
+  }
+  
+  /* Styling for unordered lists */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling for list items */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for links */
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  /* Styling for address text */
+  address {
+    font-style: normal;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 1024px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer img {
+      width: 20%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .footer img {
+      width: 30%;
+    }
+  
+    .footer-section {
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer img {
+      width: 40%;
+    }
+  
+    .footer-section h2 {
+      font-size: 18px;
+    }
+  
+    .footer-section b {
+      font-size: 14px;
+    }
+  }
+  
+  
